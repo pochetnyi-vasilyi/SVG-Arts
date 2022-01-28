@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<svg width="700" height="600" viewPort="0 0 700 600" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<image xlink:href="background.jpg"  width="700" height="400"/>
+  <defs>
+  <g opacity="1" id="korabl" >
+	<rect x="200" y="40" width="40" height="100" fill="white" stroke="black" stroke-width="2">
+	</rect>
+	<line x1="200" y1="90" x2="240" y2="90" stroke="black" stroke-width="1">
+	</line>
+	<rect x="175" y="120" width="80" height="96" fill="white" stroke="black" stroke-width="2">
+	</rect>
+	<rect x="150" y="105" width="80" height="40" fill="white" stroke="black" stroke-width="2">
+	</rect>
+	<line x1="190" y1="105" x2="190" y2="145" stroke="black" stroke-width="1">
+	</line>
+	<rect x="150" y="200" width="80" height="40" fill="white" stroke="black" stroke-width="2">
+	</rect>
+	<line x1="190" y1="200" x2="190" y2="240" stroke="black" stroke-width="1">
+	</line>
+	<polyline points="150,200 150,180 80,180 150,240" stroke="black" stroke-width="2" fill="white">
+	</polyline>
+	<polyline points="230,200 230,180 300,180 230,240" stroke="black" stroke-width="2" fill="white">
+	</polyline>
+	<polyline points="90,105 120,105 110,115 120,125 90,125" stroke="black" stroke-width="2" fill="red">
+	</polyline>
+	<circle cx="170" cy="125"  r="11" fill="yellow" stroke="black" stroke-width="2">
+	</circle>
+	<circle cx="190" cy="160"  r="11" fill="yellow" stroke="black" stroke-width="2">
+	</circle>
+	<circle cx="215" cy="160"  r="11" fill="yellow" stroke="black" stroke-width="2">
+	</circle>
+	<circle cx="210" cy="220"  r="11" fill="yellow" stroke="black" stroke-width="2">
+	</circle>
+	<circle cx="170" cy="220"  r="11" fill="yellow" stroke="black" stroke-width="2">
+	</circle>
+	<circle cx="130" cy="200"  r="11" fill="yellow" stroke="black" stroke-width="2">
+	</circle>
+	<line x1="90" y1="180" x2="90" y2="100" stroke="black" stroke-width="3">
+	</line>
+  </g>
+  </defs>
+  <use xlink:href="#korabl">
+	<animate attributeName="x" attributeType="XML" from="620" to="-320" dur="12s" repeatCount="indefinite"/>
+	<animate attributeName="y" attributeType="XML" from="80" to="120" dur="12s" repeatCount="indefinite"/>
+  </use>
+  <animateTransform xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#korabl" 
+	attributeName="transform" attributeType="XML" type="scale" values="0.5; 1.1" dur="12s" 
+	begin="0s" repeatCount="indefinite" fill="freeze">
+  </animateTransform>	
+	<text x="290" y="360" stroke="none" fill="#000000" font-weight="bolder" font-family="Times New Roman" font-size="18px"><tspan>Pochetnyi Vasilyi</tspan></text>
+</svg>
